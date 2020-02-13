@@ -9,7 +9,6 @@ import (
 	"net/http"
 	"strings"
 
-	"git.tibco.com/Morphyni/auditsafecli/client"
 	"git.tibco.com/Morphyni/auditsafecli/consts"
 	"git.tibco.com/Morphyni/auditsafecli/settings"
 	"git.tibco.com/Morphyni/auditsafecli/utils"
