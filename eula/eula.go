@@ -3,7 +3,7 @@
 
 package eula
 
-var Tibcli_eula string = `End User License Agreement
+var Tascli_eula string = `End User License Agreement
 
 If you have another valid, signed agreement with Licensor or a Licensor authorized reseller which applies to the specific products or services you are downloading, accessing, or otherwise receiving, that other agreement controls; otherwise, by using, downloading, installing, copying, or accessing Software, Maintenance, or Consulting Services, or by clicking on "I accept" on or adjacent to the screen where these Master Terms may be displayed, you hereby agree to be bound by and accept these Master Terms. These Master Terms also apply to any Maintenance or Consulting Services you later acquire from Licensor relating to the Software.
 

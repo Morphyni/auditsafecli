@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"github.com/urfave/cli"
+	"github.com/Morphyni/auditsafecli/eula"
 )
 
 func main() {
@@ -14,8 +15,12 @@ func main() {
 	app.Copyright = "2018 @boom.go"
 	app.Commands = []cli.Command{
 		{
-			Name:  "eula",
-			Usage: "Display the end use license agreement",
+			Name:      "eula",
+            Usage:     "Display the End User License Agreement (EULA).",
+            ArgsUsage: " ", // space is needed, otherwise [arguments...] will be displayed in help
+            Action: func(c *cli.Context) {
+            		fmt.Println(eula.Tascli_eula)
+            },
 		},
 		{
 			Name:  "login",

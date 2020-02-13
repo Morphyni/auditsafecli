@@ -13,7 +13,7 @@ import (
 	"git.tibco.com/Morphyni/auditsafecli/consts"
 	"git.tibco.com/Morphyni/auditsafecli/settings"
 	"git.tibco.com/Morphyni/auditsafecli/utils"
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 	log "github.com/sirupsen/logrus"
 )
 
